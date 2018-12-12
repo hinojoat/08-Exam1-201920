@@ -10,13 +10,12 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
 def main():
     """ Calls the   TEST   functions in this module. """
     test_factor_sum()
-    print(5)
 
 
 def test_factor_sum():
     """ Tests the   factor_sum   function. """
     ###########################################################################
-    #  TODO: 2. Implement this TEST function, as follows:
+    #  DONE: 2. Implement this TEST function, as follows:
     #
     #    1. Read the  doc-string of the   factor_sum   function defined below.
     #
@@ -63,12 +62,12 @@ def test_factor_sum():
 
     expected = 11
     answer = factor_sum(100)
-    print('Test 3 expected:', expected)
+    print('Test 4 expected:', expected)
     print('       actual:  ', answer)
 
     expected = 15
     answer = factor_sum(45)
-    print('Test 3 expected:', expected)
+    print('Test 5 expected:', expected)
     print('       actual:  ', answer)
 
 
@@ -104,3 +103,6 @@ def factor_sum(n):
     ###########################################################################
     # DO NOT modify the above line of code!
     ###########################################################################
+
+
+main()

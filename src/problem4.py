@@ -73,7 +73,7 @@ def problem4(number_of_stairs, step_size, starting_point, window):
     # IMPORTANT: For PARTIAL CREDIT, you can draw just the black "bottoms"
     #            of the stair steps.
     # -------------------------------------------------------------------------
-
+    lines = number_of_stairs
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
