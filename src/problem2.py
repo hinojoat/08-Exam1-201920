@@ -3,13 +3,14 @@ Exam 1, problem 2.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Alex Hinojosa.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 def main():
     """ Calls the   TEST   functions in this module. """
     test_factor_sum()
+    print(5)
 
 
 def test_factor_sum():
@@ -44,6 +45,31 @@ def test_factor_sum():
     ###########################################################################
     # WRITE YOUR TESTS BELOW HERE:
     ###########################################################################
+
+    expected = 11
+    answer = factor_sum(28)
+    print('Test 1 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 9
+    answer = factor_sum(30)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 12
+    answer = factor_sum(50)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 11
+    answer = factor_sum(100)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
+
+    expected = 15
+    answer = factor_sum(45)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
 
 
 def factor_sum(n):

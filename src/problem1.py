@@ -3,13 +3,13 @@ Exam 1, problem 1.
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher,
          Mark Hays, Amanda Stouder, Aaron Wilkin, their colleagues,
-         and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         and Alex Hinojosa.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
 # -----------------------------------------------------------------------------
-# TODO: 2. Right-click on the  src  folder and
+# DONE: 2. Right-click on the  src  folder and
 #              Mark Directory as ... Sources Root,
 #          if you have not already done so.
 # -----------------------------------------------------------------------------
@@ -108,5 +108,6 @@ def problem1(square, thickness, window):
 
 # -----------------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
-# -----------------------------------------------------------------------------
+# ------------
+# -----------------------------------------------------------------
 main()
